@@ -6,7 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = {"guru.springframework.sfgdi","com.springframework"})
+@ComponentScan(basePackages = {"guru.springframework.sfgdi",
+		"com.springframework.pets"}) // this package can be removed as it's done via config (has no annotations)
 @SpringBootApplication
 public class SfgDiApplication {
 
