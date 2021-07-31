@@ -19,6 +19,7 @@ public class GreetingServiceConfig {
     }
 
     @Bean
+    @Scope("")
     SetterInjectedGreetingService setterInjectedGreetingService(){
         return new SetterInjectedGreetingService();
     }
